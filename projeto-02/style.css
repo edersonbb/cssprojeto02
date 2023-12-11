@@ -1,0 +1,82 @@
+@import url('reset.css');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 16px;
+}
+
+.descrição {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+    width: 902px;
+    height: 42px;
+}
+
+#texto {
+width: 106px;
+height: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000
+}
+
+.texto-02 {
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 160px;
+    height: 938px;
+    left: 1052px;
+    top: 84px;
+}
+
+#imagem-01 {
+
+background-image: url(Imagens/image\ 13.png);
+}
+
+#imagem-02 {
+    
+    
+background-image: url(Imagens/image\ 14.png);
+}
+
+#imagem-03 {
+    
+   
+background-image: url(Imagens/image\ 15.png);
+}
+
+#imagem-04 {
+    
+    
+background-image: url(Imagens/image\ 12.png);
+}
+
+#imagem-05 {
+
+
+background-image: url(Imagens/image\ 13.png);
+}
